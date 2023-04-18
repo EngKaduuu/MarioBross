@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+body
+{font-family: 'kdam thmor pro', sans-serif;
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgzLGQN3fxN96dEToQCEB-pNggmTWfBiiYTv4l8pyt_2LwGaBZCv4aVdpkwbIly2Ilavc499JNEM1JxhmhTaRMy2dcq2kLtSSpDAXeWQbyo0v9TAyD_5LKYmiUPU7mhCS03g12-t6aNgsKs_MQbfT1eseaiyWwosxLO3IOBCLoamOweWLiQE9sniJ5/s1920/Universal%20Pictures.jpg");
+    background-repeat: no-repeat;
+
+}
+header {
+	background-color:transparent;
+    color:black;
+	text-align: center;
+	padding: 20px;
+}
+
+.comentario {
+	display: flex;
+	margin: 20px;
+	padding: 10px;
+	background-color: #f9f9f9; /* Cor cinza claro */
+	border-radius: 10px;
+	box-shadow: 3px 3px 10px #888888;
+}
+
+.comentario img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-right: 20px;
+    cursor: pointer;
+}
+
+.comentario h2 {
+	margin-top: 0;
+}
+
+.comentario p {
+	margin-bottom: 0;
+}
+
+.comentario .data {
+	font-style: italic;
+	color: #888888;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2; /* Cor cinza claro */
+}
+
+@media (max-width: 600px) {
+	.comentario {
+		flex-direction: column;
+	}
+	.comentario img {
+		margin: 0 auto 10px auto;
+	}
+}
+.comentario:hover{
+    box-shadow: 5px 3px 10px red;
+}
